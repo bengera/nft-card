@@ -315,4 +315,68 @@ body {
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.6;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #0d192b; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.card {
+  background-color: #14253d;
+  padding: 3rem;
+  border-radius: 15px;
+  max-width: 375px; }
+  .card__image {
+    margin-bottom: 1.3rem; }
+  .card__img {
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 100%; }
+  .card__title {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600; }
+  .card__note {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #8bacda;
+    padding-bottom: 1rem;
+    margin-top: 1rem; }
+  .card__stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #2f415b; }
+  .card__value {
+    color: #00fff7;
+    font-size: 1.3;
+    display: flex;
+    align-items: center; }
+  .card__time {
+    color: #8bacda;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; }
+  .card__author-container {
+    display: flex;
+    align-items: center; }
+  .card__author {
+    color: #8bacda;
+    margin-left: 1.5rem; }
+
+.eth,
+.clock {
+  margin-right: 1rem; }
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white; }
