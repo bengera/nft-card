@@ -1,18 +1,15 @@
 // PRIMARY COLORS
-
+$color-soft-blue: hsl(215, 51%, 70%);
+$color-cyan: hsl(178, 100%, 50%);
 
 // NEUTRAL COLORS
-
-
-// GRADIENT
-// BACKGROUND GRADIENT - INTRO/CTA MOBILE NAV
-
-
-// BACKGROUND GRADIENT - BODY
-
+$color-dark-blue-main: hsl(217, 54%, 11%); //main-BG
+$color-dark-blue-card: hsl(216, 50%, 16%); //card-BG
+$color-dark-blue-line: hsl(215, 32%, 27%); // line
+$color-white: hsl(0, 0%, 100%);
 
 // FONT VARIABLES
-
+$font-primary: 'Outfit', sans-serif;
 
 
 //Padding
@@ -71,7 +68,7 @@ html {
 body {
     font-family: $font-primary;
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.6;
     overflow-x: hidden;
 

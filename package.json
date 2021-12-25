@@ -1,0 +1,22 @@
+{
+  "name": "nft-card",
+  "version": "1.0.0",
+  "description": "![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengera/nft-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengera/nft-card/issues"
+  },
+  "homepage": "https://github.com/bengera/nft-card#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}
