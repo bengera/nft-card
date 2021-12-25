@@ -330,7 +330,23 @@ main {
   border-radius: 15px;
   max-width: 375px; }
   .card__image {
-    margin-bottom: 1.3rem; }
+    margin-bottom: 1.3rem;
+    position: relative; }
+  .card__image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: RGBA(0, 225, 247, 0.6);
+    cursor: pointer;
+    border-radius: 15px; }
+    .card__image-overlay:hover {
+      opacity: 1; }
   .card__img {
     border-radius: 15px;
     max-width: 100%;
@@ -339,7 +355,10 @@ main {
     color: white;
     text-decoration: none;
     font-size: 2rem;
-    font-weight: 600; }
+    font-weight: 600;
+    transition: .5s ease; }
+    .card__title:hover {
+      color: #00fff7; }
   .card__note {
     font-size: 1.6rem;
     font-weight: 300;
@@ -369,7 +388,8 @@ main {
     align-items: center; }
   .card__author {
     color: #8bacda;
-    margin-left: 1.5rem; }
+    margin-left: 1.5rem;
+    transition: .5s ease; }
 
 .eth,
 .clock {
