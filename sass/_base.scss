@@ -71,6 +71,7 @@ body {
     font-size: 1.8rem;
     line-height: 1.6;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: $color-dark-blue-main;
 
 }
@@ -82,13 +83,18 @@ main {
     height: 100vh;
 }
 
-
+.card.show {
+    transform: translateY(0%);
+}
 
 .card {
     background-color: $color-dark-blue-card;
     padding: 3rem;
     border-radius: 15px;
     max-width: 375px;
+
+    transform: translateY(400%);
+    transition: transform 1s ease;
 
       
     &__image {
