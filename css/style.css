@@ -354,7 +354,7 @@ main {
     background-image: url(/images/icon-view.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 37%; }
+    background-position: 50% 50%; }
     .card__image-overlay:hover {
       opacity: 1; }
   .card__img {
